@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    background-color:red;
+    color:white;
+    border-radius: 50px;
+}
+body{
+    font-family: verdana;
+    font-size: 14px;
+}
+.grid{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-areas:"a";
+   
+}
+form{
+    grid-area:"a";
+    
+}
+label{
+    font-size: 18px;
+}
+input{
+    outline: none;
+    border-radius:50px;
+    padding: 10px;
+}
